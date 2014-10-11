@@ -1,3 +1,5 @@
+from random import randint
+
 def isPrime (n):
     if n <= 20000:
         return primes[n]
@@ -41,7 +43,6 @@ def pgcd (a, b):
 		return b
 
 def miller (n, k):
-	from random import randint
 	s = 0
 	m = n-1
 	verif = True
@@ -66,7 +67,6 @@ def miller (n, k):
 
 
 def millerBase (n, b):
-	from random import randint
 	s = 0
 	m = n-1
 	verif = False
